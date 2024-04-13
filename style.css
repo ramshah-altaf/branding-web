@@ -66,8 +66,11 @@
     font-style: normal;
     color: rgb(253, 136, 94);
     padding-right: 1%;
-    overflow-x: hidden;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
 }
+
 
 /* cards section */
 .img{
@@ -220,6 +223,7 @@
 }
 
 /* footer section */
+
 footer{
     background-color: rgb(253, 136, 94);
     position: fixed;
@@ -227,7 +231,7 @@ footer{
     z-index: 0;
 }
 .spacer {
-    height: 410px; 
+    height: 400px; 
   }
 .foot-head{
     font-size: 85px;
