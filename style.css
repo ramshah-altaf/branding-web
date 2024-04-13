@@ -87,6 +87,13 @@
 .black-tile{
    font-size: 88px;
    font-family: "Bebas Neue", sans-serif;
+   position: relative;
+   overflow: hidden;
+   transition: color 0.5s, transform 0.5s;
+}
+.black-tile:hover {
+    color:  rgb(253, 136, 94);
+    transform: translateY(10%);
 }
 
 /* expert section */
