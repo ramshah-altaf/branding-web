@@ -75,7 +75,13 @@
     max-width: 60px;
     background-color: rgba(253, 136, 94, 0.616);
     color: gray;
+    transition: transform 1s, background-color 1s;
 } 
+.card-hov:hover .img{
+    transform: scale(1.2);
+    background-color: black;
+    color: gainsboro;
+}
 
 /* black tile */
 .black-tile{
