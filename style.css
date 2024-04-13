@@ -37,19 +37,24 @@
 }
 
 
-/* title swction */
+/* title section */
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
 }
+
 .title{
     font-weight: 400;
     font-style: normal;
     font-size: 80px;
     text-align: center;
     line-height: 0.9;
+    background-image: url('https://craftohtml.themezaa.com/images/demo-design-agency-02.png');
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
-.b{
+.b {
     color: grey;
 }
 .a{
