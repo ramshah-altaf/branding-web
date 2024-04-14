@@ -105,6 +105,7 @@
 /* expert section */
 .expert{
    font-family: "Bebas Neue", sans-serif;
+   
 }
 .expert-t1{
   font-size: 60px;
@@ -119,8 +120,15 @@
   font-weight: 600;
   text-align: center;
   color: rgb(253, 136, 94);
+  z-index: 1;
 }
-
+.expert-row{
+    background-image: url("https://craftohtml.themezaa.com/images/demo-design-agency-02.png");
+   background-repeat: no-repeat;
+   background-size: 250px 180px;
+   z-index: 999;
+   background-position-x: 55%;
+}
 .expert-sec{
     color: grey;
 }
@@ -158,7 +166,9 @@
     font-size: 100px;
     font-weight: 700;
     text-align: end;
-    clip-path: inset(0 0 35% 0);
+    clip-path: inset(0 20% 35% 0);
+    transform: translateX(23%); 
+    white-space: nowrap; 
 }
 .fact::after {
     content: ''; 
