@@ -69,7 +69,10 @@
     display: inline-block;
     overflow: hidden;
     position: relative;
+   
 }
+
+
 
 
 /* cards section */
@@ -361,7 +364,12 @@ footer{
         font-size: 150px; 
     }
     .create{
-        font-size: 230px; 
+        font-size: 220px; 
+    }
+    .create p{
+        clip-path: inset(0 0 0 20%);
+        transform: translateX(-20%); 
+        white-space: nowrap; 
     }
     .black-tile{
         font-size: 135px; 
