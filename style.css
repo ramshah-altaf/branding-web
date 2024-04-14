@@ -150,7 +150,22 @@
     font-weight: 500;
     overflow-x: hidden;
 }
-
+.fact-end{
+    color: rgb(253, 136, 94);
+    font-size: 100px;
+    font-weight: 700;
+    text-align: end;
+    clip-path: inset(0 0 35% 0);
+}
+.fact::after {
+    content: ''; 
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%; 
+    height: 55px;
+    background-color: rgb(253, 136, 94); 
+}
 
 /* AGENCY PAGE STYLE SHEET STARTS HERE*/
 .hero-head {
