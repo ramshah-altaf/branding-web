@@ -260,6 +260,7 @@ footer{
 @media (max-width:576px)  {
     .title{
         font-size: 80px; 
+        background-size: 100px 60px;
     }
     .create{
         font-size: 130px; 
@@ -285,6 +286,7 @@ footer{
 @media (min-width:576px)  {
     .title{
         font-size: 110px; 
+        background-size: 150px 100px;
     }
     .create{
         font-size: 165px; 
@@ -320,6 +322,7 @@ footer{
 @media (min-width:768px)  {
     .title{
         font-size: 128px; 
+        background-size: 200px 130px;
     }
     .create{
         font-size: 198px; 
