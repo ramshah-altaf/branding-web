@@ -163,24 +163,30 @@
     font-weight: 500;
     overflow-x: hidden;
 }
+.fact-row{
+    position: relative;
+    width: 100vw; 
+    overflow-x: hidden;
+}
 .fact-end{
     color: rgb(253, 136, 94);
     font-size: 100px;
     font-weight: 700;
-    text-align: end;
-    clip-path: inset(0 20% 35% 0);
-    /* transform: translateX(23%);   */
-    overflow-x: hidden;
-    
+    text-align: end; 
+    overflow: hidden;
+    position: relative;
+    right: -13%;
+    bottom: 0;
 }
 .fact::after {
     content: ''; 
     position: absolute;
     bottom: 0;
     left: 0%;
-    width: 100%; 
-    height: 55px;
+    width: 100vw; 
+    height: 50px;
     background-color: rgb(253, 136, 94); 
+    overflow: hidden;
 }
 
 /* AGENCY PAGE STYLE SHEET STARTS HERE*/
@@ -282,19 +288,20 @@
 }
 
 /* footer section */
-
+.footer-container{
+    overflow-x: hidden;
+}
 footer{
     background-color: rgb(253, 136, 94);
-    width: 100%;
+    width: 100vw;
     position: fixed;
     bottom: 0;
     z-index: 0;
     overflow: hidden;
-    
-    
 }
 .spacer {
     height: 400px; 
+    overflow: hidden;
   }
 .foot-head{
     font-size: 85px;
