@@ -286,22 +286,29 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.co-5{
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-height:300px;
-}
 #co-5{
     background-image: url("https://craftohtml.themezaa.com/images/portfolio-247.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 #co-6{
     background-image: url("https://craftohtml.themezaa.com/images/portfolio-248.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 #co-7{
     background-image: url("https://craftohtml.themezaa.com/images/portfolio-246.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 #co-8{
     background-image: url("https://craftohtml.themezaa.com/images/portfolio-245.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 
 /* CONTACT PAGE STYLE SHEET STARTS HERE*/
@@ -387,11 +394,15 @@ footer{
     }
     .co-3{
         height: 280px;
-    
     }
     .co-4{
-       height:280px;
-       
+       height:280px;   
+    }
+    #co-5{
+        height:180px;
+    }
+    #co-6{
+        height:180px;
     }
 }
 
@@ -438,6 +449,18 @@ footer{
     .co-4{
         height: 300px; 
     }
+    #co-5{
+        height:250px;
+    }
+    #co-6{
+        height:250px;
+    }
+    #co-7{
+        height:400px;
+    }
+    #co-8{
+        height:400px;
+    }
 }
 
 
@@ -480,6 +503,18 @@ footer{
     .talent-p{
        color:gray;
        font-size: 20px;
+    }
+    #co-5{
+        height:300px;
+    }
+    #co-6{
+        height:300px;
+    }
+    #co-7{
+        height:500px;
+    }
+    #co-8{
+        height:500px;
     }
 }
 
